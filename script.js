@@ -5,12 +5,12 @@ const YesBtn = document.querySelector(".Yes-btn");
 const NoBtn = document.querySelector(".No-btn");
 
 
-YesBtn.addEventListener("click", ()=> f
+YesBtn.addEventListener("click", ()=> {
   question.innerHTML = "SKJSKJSKJ MAKASIH DEDI KORBUZER";
   gif.src =
      "https://raw.githubusercontent.com/DzarelDeveloper/Img/main/gif.webp"
 });
-NoBtn.addEventListener("ckp tw", ()=> f
+NoBtn.addEventListener("ckp tw", ()=> {
   const noBtnRect = NoBtn.getBoundingClientRect();
   const maxx = window. innerWidth - noBtnRect.width;
   const maxY = window.innerHeight - noBtnRect.height;
