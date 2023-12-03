@@ -1,8 +1,8 @@
 const wrapper = document.querySelector(".wrapper");
 const question = document.querySelector(".question");
 const gif = document.queryselector(".gif");
-const iyaBtn = document.querySelector(".iya- btn");
-const ndaBtn = document.querySelector(".nda- btn");
+const iyaBtn = document.querySelector(".iya-btn");
+const ndaBtn = document.querySelector(".nda-btn");
 
 
 iyaBtn.addEventListener("click", ()=> f
