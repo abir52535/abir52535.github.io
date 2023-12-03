@@ -3,7 +3,7 @@ const question = document.querySelector(".question");
 const gif = document.queryselector(".gif");
 const iyaBtn = document.querySelector(".iya- btn");
 const ndaBtn = document.querySelector(".nda- btn");
-iyaBtn.addEventListener("click", ()=> f
+iyaBtn.addEventListener("click"), ()=> f
 question.innerHTML = "SKJSKJSKJ MAKASIH DEDI KORBUZER";
 gif.src
 1
