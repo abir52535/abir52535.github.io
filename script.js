@@ -1,23 +1,23 @@
 const wrapper = document.querySelector(".wrapper");
 const question = document.querySelector(".question");
 const gif = document.queryselector(".gif");
-const YesBtn = document.querySelector(".Yes-btn");
-const NoBtn = document.querySelector(".No-btn");
+const YesBtn = document.querySelector(".iya-btn");
+const NoBtn = document.querySelector(".nda-btn");
 
 
-YesBtn.addEventListener("click", ()=> {
+iyaBtn.addEventListener("click", ()=> {
   question.innerHTML = "SKJSKJSKJ MAKASIH DEDI KORBUZER";
   gif.src =
      "https://raw.githubusercontent.com/DzarelDeveloper/Img/main/gif.webp"
 });
-NoBtn.addEventListener("ckp tw", ()=> {
-  const noBtnRect = NoBtn.getBoundingClientRect();
-  const maxx = window. innerWidth - noBtnRect.width;
-  const maxY = window.innerHeight - noBtnRect.height;
+ndaBtn.addEventListener("ckp tw", ()=> {
+  const noBtnRect = ndaBtn.getBoundingClientRect();
+  const maxx = window. innerWidth - ndaBtnRect.width;
+  const maxY = window.innerHeight - ndaBtnRect.height;
 
   const randomx = Math.floor(Math.random() * maxx);
   const randomY = Math.floor(Math.random() * maxY);
 
- noBtn.style.left = randomX + "px";
- noBtn.style.top = randomY + "px";
+ ndaBtn.style.left = randomX + "px";
+ ndaBtn.style.top = randomY + "px";
 });
